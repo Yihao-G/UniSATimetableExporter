@@ -194,4 +194,5 @@ with open(save_file_to, "w+") as csv_file:
 # exporting csv file ends
 
 easygui.msgbox("Your timetable has been successfully exported to " + save_file_to + ". \n"
+               "\n"
                "Please go to Google Calendar or other calendar providers to import the .csv file. ")
