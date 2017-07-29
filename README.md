@@ -10,4 +10,6 @@ pip install easygui
 pip install requests
 pip install bs4
 ```
+Please note that tcl/tk is also required to run the program. 
+
 2. Run ```Exporter.py```, follow the steps.
