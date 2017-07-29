@@ -189,8 +189,7 @@ with open(save_file_to, "w+") as csv_file:
                   "Description", "Location"]
     writer = csv.DictWriter(csv_file, delimiter=',', quoting=csv.QUOTE_ALL, fieldnames=CSV_HEADER, lineterminator="\n")
     writer.writeheader()
-    for line in courses_time:
-        writer.writerows(courses_time)
+    writer.writerows(courses_time)
 # exporting csv file ends
 
 easygui.msgbox("Your timetable has been successfully exported to " + save_file_to + ". \n"
